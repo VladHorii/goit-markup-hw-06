@@ -67,3 +67,11 @@
 .modal__btnn:focus {
   color: var(--accent-color);
 }
+
+.modal__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  margin-bottom: 12px;
+}
