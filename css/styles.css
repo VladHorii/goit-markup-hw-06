@@ -681,6 +681,7 @@ body {
 }
 
 .form__textarea {
+  font-size: 12px;
   resize: none;
   width: 100%;
 
@@ -691,6 +692,13 @@ body {
   cursor: pointer;
 
   transition: border 250ms var(--animation);
+}
+.form__textarea::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .form__group--checkbox {
