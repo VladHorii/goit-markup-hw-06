@@ -28,7 +28,7 @@
   left: 50%;
 
   min-width: 528px;
-  min-height: 581px;
+  height: 581px;
   padding: 40px;
 
   background-color: var(--white-color);
